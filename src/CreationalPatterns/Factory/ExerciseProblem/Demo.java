@@ -1,0 +1,8 @@
+package CreationalPatterns.Factory.ExerciseProblem;
+
+public class Demo {
+    public static void show() {
+        var scheduler = new Scheduler();
+        scheduler.schedule(new Event());
+    }
+}
